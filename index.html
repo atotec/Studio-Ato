@@ -133,6 +133,13 @@
   .svc ul{list-style:none;display:grid;gap:7px}
   .svc li{font-size:.9rem;color:var(--ink);padding-left:20px;position:relative}
   .svc li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:2px;background:var(--gold)}
+  /* Portfólio (chamada) */
+  .pf-teaser{background:var(--navy-deep);padding:90px 0 0}
+  .pf-box{border:1px solid var(--line);border-radius:20px;padding:44px 48px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;
+    background:radial-gradient(600px 300px at 100% 0%,rgba(192,161,87,.14),transparent 70%),var(--card)}
+  .pf-box h2{font-size:clamp(1.6rem,2.8vw,2.2rem);font-weight:800;margin:12px 0 10px}
+  .pf-box p{color:var(--muted);max-width:560px}
+  @media (max-width:600px){.pf-teaser{padding-top:64px}.pf-box{padding:32px 24px}.pf-box .btn{width:100%;justify-content:center}}
 
   /* Espaços */
   .spaces{background:var(--navy-deep)}
@@ -272,6 +279,7 @@
     <ul id="menu">
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#servicos">Serviços</a></li>
+      <li><a href="portfolio.html" target="_blank" rel="noopener">Portfólio</a></li>
       <li><a href="#espacos">Espaços</a></li>
       <li><a href="#como-funciona">Como funciona</a></li>
       <li><a href="#faq">Dúvidas</a></li>
@@ -381,6 +389,21 @@
         <p>Entregamos o material pronto: edição, correção de cor, tratamento de áudio, legendas e vinhetas.</p>
         <ul><li>Color grading e mixagem</li><li>Motion graphics e vinhetas</li><li>Formatos para cada plataforma</li></ul>
       </article>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFÓLIO -->
+<section class="pf-teaser" id="portfolio">
+  <div class="wrap">
+    <div class="pf-box reveal">
+      <div>
+        <span class="eyebrow">Portfólio</span>
+        <h2>Veja o que já colocamos em cena</h2>
+        <p>Esquetes, séries educativas, endomarketing e muito mais: conheça as produções feitas pela nossa equipe.</p>
+      </div>
+      <a href="portfolio.html" target="_blank" rel="noopener" class="btn btn-gold">Ver portfólio completo
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
     </div>
   </div>
 </section>
@@ -555,7 +578,7 @@
       </div>
       <div>
         <h5>Navegação</h5>
-        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#espacos">Espaços</a></li><li><a href="#faq">Dúvidas</a></li><li><a href="#contato">Contato</a></li><li><a href="https://g.page/r/CZbIqPdS8CaiEBM/review" target="_blank" rel="noopener">Avalie no Google ★</a></li></ul>
+        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="portfolio.html" target="_blank" rel="noopener">Portfólio</a></li><li><a href="#espacos">Espaços</a></li><li><a href="#faq">Dúvidas</a></li><li><a href="#contato">Contato</a></li><li><a href="https://g.page/r/CZbIqPdS8CaiEBM/review" target="_blank" rel="noopener">Avalie no Google ★</a></li></ul>
       </div>
       <div>
         <h5>Endereço</h5>
