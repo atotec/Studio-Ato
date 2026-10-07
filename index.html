@@ -202,6 +202,15 @@
   input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(192,161,87,.18)}
   textarea{resize:vertical;min-height:110px}
   form .btn{width:100%;justify-content:center;margin-top:8px}
+  /* Avaliação Google */
+  .review{background:var(--navy-deep);padding:0 0 110px}
+  .review-box{border:1px solid var(--line);border-radius:20px;padding:44px 48px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;
+    background:radial-gradient(600px 300px at 0% 0%,rgba(192,161,87,.12),transparent 70%),var(--card)}
+  .review .stars{display:flex;gap:4px;color:var(--gold);margin-bottom:14px}
+  .review .stars svg{width:22px;height:22px}
+  .review h2{font-size:clamp(1.5rem,2.6vw,2rem);font-weight:800;margin-bottom:10px}
+  .review p{color:var(--muted);max-width:560px}
+  @media (max-width:600px){.review{padding-bottom:80px}.review-box{padding:32px 24px}.review-box .btn{width:100%;justify-content:center}}
 
   /* Rodapé */
   footer{background:#0d1424;padding:60px 0 30px;border-top:1px solid var(--line)}
@@ -518,6 +527,21 @@
   </div>
 </section>
 
+<!-- AVALIAÇÃO -->
+<section class="review" id="avaliar">
+  <div class="wrap">
+    <div class="review-box reveal">
+      <div>
+        <div class="stars" aria-label="5 estrelas"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg></div>
+        <h2>Gravou ou fotografou com a gente?</h2>
+        <p>Conte como foi a sua experiência no Google. Sua avaliação leva só um minuto e ajuda outras pessoas a conhecerem o Studio Ato.</p>
+      </div>
+      <a href="https://g.page/r/CZbIqPdS8CaiEBM/review" target="_blank" rel="noopener" class="btn btn-gold">Avaliar no Google
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -531,7 +555,7 @@
       </div>
       <div>
         <h5>Navegação</h5>
-        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#espacos">Espaços</a></li><li><a href="#faq">Dúvidas</a></li><li><a href="#contato">Contato</a></li></ul>
+        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#espacos">Espaços</a></li><li><a href="#faq">Dúvidas</a></li><li><a href="#contato">Contato</a></li><li><a href="https://g.page/r/CZbIqPdS8CaiEBM/review" target="_blank" rel="noopener">Avalie no Google ★</a></li></ul>
       </div>
       <div>
         <h5>Endereço</h5>
