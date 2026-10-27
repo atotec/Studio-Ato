@@ -134,7 +134,7 @@
   .svc li{font-size:.9rem;color:var(--ink);padding-left:20px;position:relative}
   .svc li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:2px;background:var(--gold)}
   /* Planos (chamada) */
-  .plans{background:var(--navy-deep)}
+  .plans{background:var(--navy)}
   .ways3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:40px}
   .ways3 div{border-left:2px solid var(--gold);padding:4px 0 4px 18px}
   .ways3 h4{font-family:Montserrat;color:var(--white);font-size:1.02rem;margin-bottom:4px}
@@ -338,7 +338,7 @@
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#servicos">Serviços</a></li>
       <li><a href="portfolio.html" target="_blank" rel="noopener">Portfólio</a></li>
-      <li><a href="planos.html" target="_blank" rel="noopener">Planos</a></li>
+      <li><a href="#planos">Planos</a></li>
       <li><a href="#espacos">Espaços</a></li>
       <li><a href="#como-funciona">Como funciona</a></li>
       <li><a href="#faq">Dúvidas</a></li>
@@ -448,33 +448,6 @@
         <p>Entregamos o material pronto: edição, correção de cor, tratamento de áudio, legendas e vinhetas.</p>
         <ul><li>Color grading e mixagem</li><li>Motion graphics e vinhetas</li><li>Formatos para cada plataforma</li></ul>
       </article>
-    </div>
-  </div>
-</section>
-
-<!-- PLANOS -->
-<section class="plans" id="planos">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Planos e pacotes</span>
-      <h2>Três formas de produzir com o Studio Ato</h2>
-      <p>Produções a partir de <strong class="gold">R$ 350</strong>. Operador, iluminação e áudio de estúdio incluídos: você só precisa chegar.</p>
-    </div>
-    <div class="ways3 reveal">
-      <div><h4>Sessão avulsa</h4><p>Gravação ou ensaio para uma necessidade pontual. Você agenda, grava e recebe.</p></div>
-      <div><h4>Conteúdo pronto</h4><p>Pacotes e planos mensais com episódios, vídeos e fotos editados, prontos para publicar.</p></div>
-      <div><h4>Banco de horas</h4><p>Horas de captação pré-pagas para usar quando precisar, com valor por hora reduzido.</p></div>
-    </div>
-    <div class="plan-grid">
-      <a class="plan reveal" href="planos.html#podcast" target="_blank" rel="noopener"><span class="cat">Podcast</span><h3>Gravação de podcast</h3><p>1h de gravação com operador, até três câmeras, áudio dedicado e iluminação.</p><span class="from">a partir de</span><span class="price">R$ 390</span></a>
-      <a class="plan reveal" href="planos.html#redes" target="_blank" rel="noopener"><span class="cat">Redes sociais</span><h3>Sessão de conteúdo</h3><p>Até 2h de gravação e 6 vídeos de até 90s editados, prontos para publicar.</p><span class="from">a partir de</span><span class="price">R$ 1.290</span></a>
-      <a class="plan reveal" href="planos.html#fotografia" target="_blank" rel="noopener"><span class="cat">Fotografia</span><h3>Perfil profissional</h3><p>30 min de ensaio, 1 look e 1 fundo, com 5 fotos tratadas e a galeria completa.</p><span class="from">a partir de</span><span class="price">R$ 350</span></a>
-      <a class="plan reveal" href="planos.html#cursos" target="_blank" rel="noopener"><span class="cat">Locação</span><h3>Estúdio para sua equipe</h3><p>2h de ambiente e iluminação básica para equipes externas, sem operador e câmeras.</p><span class="from">a partir de</span><span class="price">R$ 400</span></a>
-    </div>
-    <div class="plans-more reveal">
-      <p>Valores mínimos de cada categoria. Veja também os planos mensais, o combo fotos + vídeos, o banco de horas, a gravação de cursos e os serviços adicionais.</p>
-      <a href="planos.html" target="_blank" rel="noopener" class="btn btn-gold">Ver todos os planos e valores
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
     </div>
   </div>
 </section>
@@ -627,7 +600,7 @@
       <details><summary>Quanto tempo leva para receber o material?</summary>
         <p>Fotos e episódios ficam prontos em até 5 dias úteis após a seleção; lotes de vídeos, em até 7 dias úteis. A entrega é feita em uma pasta privada, com uma rodada de ajustes inclusa.</p></details>
       <details><summary>Vocês têm pacotes mensais?</summary>
-        <p>Sim. Temos planos mensais de podcast (4 episódios e 12 cortes) e de vídeos para redes sociais (8 ou 12 vídeos), com edição inclusa e compromisso inicial de 3 meses. <a href="planos.html" target="_blank" rel="noopener" class="gold">Ver planos →</a></p></details>
+        <p>Sim. Temos planos mensais de podcast (4 episódios e 12 cortes) e de vídeos para redes sociais (8 ou 12 vídeos), com edição inclusa e compromisso inicial de 3 meses. <a href="#planos" class="gold">Ver planos →</a></p></details>
       <details><summary>Qual o horário de atendimento?</summary>
         <p>De segunda a sexta, das 9h às 18h, com sessões agendadas. Horários especiais sob consulta.</p></details>
       <details><summary>Onde fica o estúdio?</summary>
@@ -712,6 +685,33 @@
   </div>
 </section>
 
+<!-- PLANOS -->
+<section class="plans" id="planos">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Planos e pacotes</span>
+      <h2>Três formas de produzir com o Studio Ato</h2>
+      <p>Produções a partir de <strong class="gold">R$ 350</strong>. Operador, iluminação e áudio de estúdio incluídos: você só precisa chegar.</p>
+    </div>
+    <div class="ways3 reveal">
+      <div><h4>Sessão avulsa</h4><p>Gravação ou ensaio para uma necessidade pontual. Você agenda, grava e recebe.</p></div>
+      <div><h4>Conteúdo pronto</h4><p>Pacotes e planos mensais com episódios, vídeos e fotos editados, prontos para publicar.</p></div>
+      <div><h4>Banco de horas</h4><p>Horas de captação pré-pagas para usar quando precisar, com valor por hora reduzido.</p></div>
+    </div>
+    <div class="plan-grid">
+      <a class="plan reveal wa-msg" href="#" data-msg="Olá! Tenho interesse na gravação de podcast (a partir de R$ 390)."><span class="cat">Podcast</span><h3>Gravação de podcast</h3><p>1h de gravação com operador, até três câmeras, áudio dedicado e iluminação.</p><span class="from">a partir de</span><span class="price">R$ 390</span></a>
+      <a class="plan reveal wa-msg" href="#" data-msg="Olá! Tenho interesse na sessão de conteúdo para redes sociais (a partir de R$ 1.290)."><span class="cat">Redes sociais</span><h3>Sessão de conteúdo</h3><p>Até 2h de gravação e 6 vídeos de até 90s editados, prontos para publicar.</p><span class="from">a partir de</span><span class="price">R$ 1.290</span></a>
+      <a class="plan reveal wa-msg" href="#" data-msg="Olá! Tenho interesse no ensaio Perfil profissional (a partir de R$ 350)."><span class="cat">Fotografia</span><h3>Perfil profissional</h3><p>30 min de ensaio, 1 look e 1 fundo, com 5 fotos tratadas e a galeria completa.</p><span class="from">a partir de</span><span class="price">R$ 350</span></a>
+      <a class="plan reveal wa-msg" href="#" data-msg="Olá! Tenho interesse na locação do estúdio (a partir de R$ 400)."><span class="cat">Locação</span><h3>Estúdio para sua equipe</h3><p>2h de ambiente e iluminação básica para equipes externas, sem operador e câmeras.</p><span class="from">a partir de</span><span class="price">R$ 400</span></a>
+    </div>
+    <div class="plans-more reveal">
+      <p>Valores mínimos de cada categoria. Também temos planos mensais, combo fotos + vídeos, banco de horas, gravação de cursos e serviços adicionais: fale com a gente e receba a opção ideal para o seu projeto.</p>
+      <a href="#" class="btn btn-gold wa-msg" data-msg="Olá! Gostaria de conhecer todos os planos e valores do Studio Ato.">Ver todos os planos no WhatsApp
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -725,7 +725,7 @@
       </div>
       <div>
         <h5>Navegação</h5>
-        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="portfolio.html" target="_blank" rel="noopener">Portfólio</a></li><li><a href="planos.html" target="_blank" rel="noopener">Planos</a></li><li><a href="#espacos">Espaços</a></li><li><a href="#faq">Dúvidas</a></li><li><a href="#contato">Contato</a></li><li><a href="https://g.page/r/CZbIqPdS8CaiEBM/review" target="_blank" rel="noopener">Avalie no Google ★</a></li></ul>
+        <ul><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="portfolio.html" target="_blank" rel="noopener">Portfólio</a></li><li><a href="#planos">Planos</a></li><li><a href="#espacos">Espaços</a></li><li><a href="#faq">Dúvidas</a></li><li><a href="#contato">Contato</a></li><li><a href="https://g.page/r/CZbIqPdS8CaiEBM/review" target="_blank" rel="noopener">Avalie no Google ★</a></li></ul>
       </div>
       <div>
         <h5>Endereço</h5>
@@ -749,6 +749,7 @@
 
   const waBase = 'https://wa.me/' + WHATSAPP;
   const hello = encodeURIComponent('Olá! Vim pelo site e gostaria de saber mais sobre o Studio Ato.');
+  document.querySelectorAll('.wa-msg').forEach(a => { a.href = waBase + '?text=' + encodeURIComponent(a.dataset.msg); a.target = '_blank'; a.rel = 'noopener'; });
   document.querySelectorAll('.wa-link').forEach(a => { a.href = waBase + '?text=' + hello; a.target = '_blank'; a.rel = 'noopener'; });
 
   document.getElementById('ano').textContent = new Date().getFullYear();
